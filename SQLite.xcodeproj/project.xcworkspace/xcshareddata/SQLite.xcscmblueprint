@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9DD9DD93BCB7A821774C6F4B6EE537B8E5243A90",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9238C114308E42A1A3CE25A27479DA6CD51398F8" : 0,
+    "9DD9DD93BCB7A821774C6F4B6EE537B8E5243A90" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DF8F1112-7CC2-49FE-A04D-5BCDDA1CC7F0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9238C114308E42A1A3CE25A27479DA6CD51398F8" : "SQLite\/SQLite\/",
+    "9DD9DD93BCB7A821774C6F4B6EE537B8E5243A90" : "SQLite\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SQLite",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SQLite.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/20141105073ld\/SQLite.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9238C114308E42A1A3CE25A27479DA6CD51398F8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/20141105073ld\/SQLite.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9DD9DD93BCB7A821774C6F4B6EE537B8E5243A90"
+    }
+  ]
+}
