@@ -31,7 +31,7 @@ class chaxun: UIViewController {
         //如果表还不存在则创建表（其中uid为自增主键）
         db.execute("create table if not exists tuser(uid integer primary key,uname varchar(20),mobile varchar(20)email varchar(20)address varchar(20))")
         //如果有数据则加载
-        //initUser()
+        // initUser()
     }
     
     @IBAction func selete(sender: AnyObject) {
@@ -42,8 +42,8 @@ class chaxun: UIViewController {
         let data = db.query("select * from tuser")
         for var x=0;x<data.count;x++
         {
-            let tuser = data[x]
-            text3.text! += "姓名" + String(tuser["uname"]!) + "电话" + String(tuser["mobile"]!) + "邮件" + String(tuser["email"]!) + "地址" + String(tuser["address"]!)+"\n"
+            let user = data[x]
+            text3.text! += "姓名" + String(user["uname"]!) + "电话" + String(user["mobile"]!) + "邮件" + String(user["email"]!) + "地址" + String(user["address"]!)+"\n"
         }
     }
     override func didReceiveMemoryWarning() {

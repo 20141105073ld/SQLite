@@ -31,11 +31,11 @@ class chazhao: UIViewController {
     func sf(){
         textf1.text=""
         let a=textf.text!
-        let data = db.query("select * from user where uname='\(a)'")
+        let data = db.query("select * from tuser where uname='\(a)'")
         for (var i=0;i<data.count;i++)
         {
-            let tuser = data[i]
-            textf1.text!+="姓名："+String(tuser["uname"]!)+"电话："+String(tuser["mobile"]!)+"邮件："+String(tuser["email"]!)+"地址："+String(tuser["address"]!)+"\n"
+            let user = data[i]
+            textf1.text!+="姓名："+String(user["uname"]!)+"电话："+String(user["mobile"]!)+"邮件："+String(user["email"]!)+"地址："+String(user["address"]!)+"\n"
         }
     }
     
