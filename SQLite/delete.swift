@@ -13,7 +13,6 @@ class delete: UIViewController {
     var db:SQLiteDB!
     
     @IBOutlet weak var text1: UITextField!
-    
     @IBOutlet weak var text2: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +20,7 @@ class delete: UIViewController {
         //获取数据库实例
         db = SQLiteDB.sharedInstance()
         //如果表还不存在则创建表（其中uid为自增主键）
-        db.execute("create table if not exists tuser(uid integer primary key,uname varchar(20),mobile varchar(20)email varchar(20)address varchar(20))")
+        db.execute("create table if not exists tuser(uid integer primary key,uname varchar(20),mobile varchar(20),email varchar(20),address varchar(20))")
         //如果有数据则加载
         //  initUser()
     }
@@ -41,8 +40,8 @@ class delete: UIViewController {
         deleteuser1()
     }
     func deleteuser1(){
-        let value=text2.text!
-        let sql = "delete from tuser where uname='\(value)'"
+        let value1=text2.text!
+        let sql = "delete from tuser where uname='\(value1)'"
         let result = db.execute(sql)
         print(result)
     }
